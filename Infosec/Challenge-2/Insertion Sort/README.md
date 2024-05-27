@@ -20,3 +20,11 @@ Process:
 - Stable: Maintains the order of equal elements.
 - Adaptive: Efficient for nearly sorted arrays.
 - In-Place: Requires no extra memory.
+
+# Example:
+For the array [12, 11, 13, 5, 6]:
+
+- Insert 11 before 12 → [11, 12, 13, 5, 6]
+- 13 is already in place → [11, 12, 13, 5, 6]
+- Insert 5 before 11 → [5, 11, 12, 13, 6]
+- Insert 6 after 5 → [5, 6, 11, 12, 13]

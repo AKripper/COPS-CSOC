@@ -21,7 +21,7 @@ Process:
 - Adaptive: Efficient for nearly sorted arrays.
 - In-Place: Requires no extra memory.
 
-# Example:
+## Example:
 For the array [12, 11, 13, 5, 6]:
 
 - Insert 11 before 12 → [11, 12, 13, 5, 6]

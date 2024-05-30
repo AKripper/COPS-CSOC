@@ -1,5 +1,11 @@
 # Writeup
 
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/857fdb68-c19e-4ced-8ed9-d4c457bae991)
+
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/d6a97a8c-82a5-4cad-a43c-5e7a30744bb9)
+
+
+
 ## Password
 -----BEGIN RSA PRIVATE KEY-----
 MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ

@@ -12,4 +12,10 @@ so I compared the image to an actual PNG image and modified the corrupted bits.
 
 After modification and renaming the file by adding file extension `.png` I got a blank [image](advanced-potion-making.png)
 
+Now because this is a blank image I decided to open it on MS Paint. Here I filled the background black and this is what I found.
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/f8b4c1d8-c5ff-4311-bb6f-15878ec13e47)
+
+We found our flag.
+
 ## Flag
+picoCTF{w1z4rdry}

@@ -1,5 +1,5 @@
 ## Challenge Description
-This is a really weird text file [TXT]()? Can you find the flag?
+This is a really weird text file [TXT](flag.txt)? Can you find the flag?
 
 ## Writeup
 

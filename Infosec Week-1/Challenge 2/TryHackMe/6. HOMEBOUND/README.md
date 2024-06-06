@@ -25,7 +25,7 @@ Another post that shows the map of Japan in which Lake Inawashiro, Fukushima, Ja
 
 And finally we can see the city free wifi mentioned in the deep paste mentions 'Hirosaki'.
 Thus the attacker likely lives in Hirosaki.
-![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/2a532405-330a-4159-83c7-faa8ff64e0d1)
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/aa3f67f3-3202-4be6-a94a-258796f9ee7f)
 
 
 We have thus completed the challenge...

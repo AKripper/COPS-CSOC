@@ -6,6 +6,13 @@ Your task is to determine:
 
 a) At which train stations did the person board and alight?
 
+### Bonus Challenges
+
+- Identify the mode of transportation in each image.
+- Determine the type of train they rode.
+- Estimate the speed at which the train was travelling when the footage was recorded.
+- Calculate approximately how far did the person travel overall.
+
 ## Writeup 
 The zip file contains the following pics and videos. I arranged them in the order they were taken as we must assume that the person was travelling and was taking pictures along his way.
 

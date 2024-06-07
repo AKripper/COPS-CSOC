@@ -22,4 +22,5 @@ The video shows an earhtquake that took place on 24th September 2016, as it is g
 ## Answers
 
 a) Magnitude - 5.6
+
 b) Coordinates - 45.7600, 26.6300

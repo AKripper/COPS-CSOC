@@ -17,4 +17,9 @@ The video shows an earhtquake that took place on 24th September 2016, as it is g
 ![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/1c684fff-7944-4152-88ca-10b3c9cc360c)
 
 
+[This](https://terremoti.ingv.it/en/event/8206381) site shows that the magnitude of the earthquake was 5.6 and the coordinates of location were 45.7600, 26.6300
+
 ## Answers
+
+a) Magnitude - 5.6
+b) Coordinates - 45.7600, 26.6300

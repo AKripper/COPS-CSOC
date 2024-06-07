@@ -18,5 +18,7 @@ I thus got the coordinates of the place and the cardinal direction.
 
 ## Answers
 a) Oan Resort
+
 b) 7°21'19"N 151°45'38"E
+
 c) North-West

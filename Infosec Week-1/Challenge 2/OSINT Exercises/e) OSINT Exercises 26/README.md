@@ -7,8 +7,8 @@ Your task is to determine:
 a) At which train stations did the person board and alight?
 
 ## Writeup 
-The zip file contains the following pics and videos.
+The zip file contains the following pics and videos. I arranged them in the order they were taken as we must assume that the person was travelling and was taking pictures along his way.
 
-![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/7924ceae-7e0b-4b2f-802c-eebf2b49337a)
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/f400a147-f0eb-4547-be8b-f3acb55d1eb1)
 
 

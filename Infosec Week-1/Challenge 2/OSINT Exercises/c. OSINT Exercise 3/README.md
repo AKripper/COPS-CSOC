@@ -6,9 +6,11 @@ Click [here](https://gralhix.com/wp-content/uploads/2023/08/osint-exercise-003-p
 
 ## Writeup
 Reverse searching the image resulted in a google link that has a photo gallery of the meeting that took place.
+
 ![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/ec602045-d507-4c0c-84c3-2be258f913b0)
 
 It says that the meeting took place in the Presedential Complex of Turkey.
+
 ![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/2fca46df-563a-4e10-915a-8b582142d413)
 
 ## Answers

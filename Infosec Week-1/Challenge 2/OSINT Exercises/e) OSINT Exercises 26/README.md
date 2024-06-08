@@ -28,6 +28,16 @@ The zip file contains the following pics and videos. I arranged them in the orde
    ![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/ea2369b9-387e-4f90-85dd-0463cc71953b)
 
    We are thus at the exact location which is *Afrosiab Street*.
+4. Now for the video, we can see the person is in a train that is moving in a somewhat out of city area. I tried finding it on maps by looking at nearby stations but wasn't able to    achieve much. So I looked up the official writeup of the question. They figured out that the time the person was traveling at was around afternoon and through the shadows they
+   concluded that the person was travelling either west to east or east to west. Now looking at the [railway maps](https://railway.uz/upload/iblock/b73/b736cc5a0ba5a820a2e91a6941a9b52d.jpg) of Uzbekistan we can narrow down to this one stretch.
+
+   ![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/4ba595ec-57b4-4ace-b574-3c53c4839c62)
+
+   We can see the stretch is 1.19 km long so the speed of the train is approximately is 140 kmph. This is the *Jizzakh District* of Uzbekistan.
+5. We can see that the train taken by the person goes till Samarkand. Now all we have to do is look at the bridges in Samarkand. We find one bridge that matches the one we were        finding.
+   ![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/eff53381-edb0-4084-baa0-5ebf20633e62)
+
+   It is *Shah-i-Zinda St*, Samrakand, Uzbekistan.
 
 
    

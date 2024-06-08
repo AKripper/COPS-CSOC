@@ -33,6 +33,7 @@ Now I searched the paste using the md5 hash provided in the [image](![image](htt
 
 This was the paste.
 
+Now clearly the SSID for the home wifi is DK1F-G, so we can use [wigle.net](https://wigle.net/mapsearch?maplat=37.49422556604922&maplon=-220.0755481935037&mapzoom=8&n=g2%20%2Fmapsearch) to get the BSSID of the network.
 
 ## Answers
 1. SakuraLoverAiko

@@ -35,6 +35,7 @@ The zip file contains the following pics and videos. I arranged them in the orde
 
    We can see the stretch is 1.19 km long so the speed of the train is approximately is 140 kmph. This is the *Jizzakh District* of Uzbekistan.
 5. We can see that the train taken by the person goes till Samarkand. Now all we have to do is look at the bridges in Samarkand. We find one bridge that matches the one we were        finding.
+   
    ![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/eff53381-edb0-4084-baa0-5ebf20633e62)
 
    It is *Shah-i-Zinda St*, Samrakand, Uzbekistan.

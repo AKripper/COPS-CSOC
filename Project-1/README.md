@@ -27,3 +27,14 @@ Checking the latest version it has the following information:
 ![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/2eb54acc-3313-4e6d-9b17-0ff6decc677d)
 
 We see the 'secret' and 'gamedata' headers contain some hexadecimal strings. These strings are likely used to decrypt the data for profile objects in the game.
+
+
+Clearly reversing this game is not an easy job so I will try doing the same for another game. 
+
+# Medieval Dynasty
+
+## Introduction
+This is my analysis for *Medieval Dynasty*. Searching a game which contains unencrypted save files was a hard task.
+
+## Writeup
+

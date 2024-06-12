@@ -1,40 +1,28 @@
-# Subway Surfers
+
+# Raft
 
 ## Introduction
-This is my analysis for the game *Subway Surfers*. You can find the game folder attached [here](com.kiloo.subwaysurf.zip).
+This is my analysis for *Raft*. I started by using linux but very soon I understood that wont be of any help to me here. So I looked up on the internet for ways to view and edit save files of games. This is my writeup for the same.
 
 ## Writeup
-I started by browsing here and there at first, my goal was to find the save file of this game. These are the contents of the `files` directory.
 
-![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/060be9c9-b1e0-45ba-8bad-62d91451ec64)
+I started a new world and as you can see I have nothing much in this world and my thirst level is going down very fast...Now I save it as it is. This is my game save. 
 
-Now going to the `profile` directory we find a lot of `.json` files.
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/61b928e3-7cd2-4eb3-ada8-a7233b022178)
 
-![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/37435a85-2cf5-4c11-8e30-05cf49a5fbf6)
+I located the game save in the hidden AppData folder. To get here open you search bar and type %AppData%. This will direct you to a hidden folder. This is where all the games store their save files. Raft's save file is in the following location `\AppData\LocalLow\Raft\Raft\SavedGames`. Now from some research I found out this amazing tool called [Save Editor](https://www.saveeditonline.com). So I uploaded my save file here and this is what I got.
 
-These files most likely contain all the data of individual profiles. Looking at one of the file I found out that the data was encrypted which was quite obvious for keeping it invulnerable from hackers.
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/185db93d-a97d-44f9-a553-55f04cd4eeed)
 
-![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/b1fa84dc-2833-4ae8-90da-d9f97882e8ae)
+This is part of the save file...it shows all the player charecteristics like inventory items and their amount and even thirst and hunger.
 
-I base64 decoded the data string but it gave some gibberish value. The data is likely AES encrypted and for decoding it we will need to find the key and IV(initialization vector) which is not going to be an easy task. So I started browsing the directories where I found this file in the `tower>gamedata>manifest`
+I will start by increasing my hunger and thirst to 100. 
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/75e00833-9940-40c3-8e56-e693689eba6a)
 
-![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/49f4d344-3854-4578-951f-fc163d5e1ad6)
+Now saving this file and going into the game my thirst and hunger has indeed increased to 100.
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/cadc562f-7a32-4f44-97d1-56a188aff2ef)
 
-These are all the keys to the data present in the files. I tries decrypting them but wasn't successful in doing so. Going forward I browsed the `tower` directory and found out that the `client` directory in it contains all the information about the version of the game.
+I sis the same for inventory items  and game it the max number that is 10. And it worked as well.
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/d402b7bf-db59-453a-9d00-3f41b0caaff7)
 
-Checking the latest version it has the following information:
-
-![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/2eb54acc-3313-4e6d-9b17-0ff6decc677d)
-
-We see the 'secret' and 'gamedata' headers contain some hexadecimal strings. These strings are likely used to decrypt the data for profile objects in the game.
-
-
-Clearly reversing this game is not an easy job so I will try doing the same for another game. 
-
-# Medieval Dynasty
-
-## Introduction
-This is my analysis for *Medieval Dynasty*. Searching a game which contains unencrypted save files was a hard task.
-
-## Writeup
 

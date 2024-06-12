@@ -22,7 +22,14 @@ I will start by increasing my hunger and thirst to 100.
 Now saving this file and going into the game my thirst and hunger has indeed increased to 100.
 ![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/cadc562f-7a32-4f44-97d1-56a188aff2ef)
 
-I sis the same for inventory items  and game it the max number that is 10. And it worked as well.
+I did the same for inventory items and game it the max number that is 10. And it worked as well.
 ![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/d402b7bf-db59-453a-9d00-3f41b0caaff7)
+
+## Results
+- I was able to locate the save file of the game.
+- I was able to read the save file.
+- I was able to modify the save file.
+- The modifications caused in game changes as well.
+- [Here](mygame.rgd) is my final save file.
 
 

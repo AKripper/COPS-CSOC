@@ -13,3 +13,10 @@ Challenge files:
 
 Resources:
   - [Downloading Python](https://wiki.python.org/moin/BeginnersGuide/Download)
+
+
+## Writeup
+Just run the script and it outputs the flag.
+
+## Flag
+crypto{z3n_0f_pyth0n}

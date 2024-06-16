@@ -13,6 +13,9 @@ Connect at `socket.cryptohack.org 11112`
 Challenge files:
   - [pwntools_example.py](pwntools_example_72a60ff13df200692898bb14a316ee0b.py)
 
+
 ## Writeup
+Change the the request parameter `clothes` to `flag` and run the program. We get our flag.
 
 ## Flag
+crypto{sh0pp1ng_f0r_fl4g5}

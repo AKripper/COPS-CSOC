@@ -9,7 +9,7 @@ Included below is a flag encoded as a hex string. Decode this back into bytes to
 
 
 ## Writeup
-I used the bytes.fromhex() function to convert this hexadecimal string to bytes. [Here](hex.py) is the script.
+I used the bytes.fromhex() function to convert this hexadecimal string to bytes. [Here](Hex.py) is the script.
 
 ## Flag
 crypto{You_will_be_working_with_hex_strings_a_lot}

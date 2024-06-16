@@ -1,22 +1,10 @@
 ## Challenge Description
-Modern cryptography involves code, and code involves coding. CryptoHack provides a good opportunity to sharpen your skills.
+Each challenge is designed to help introduce you to a new piece of cryptography. Solving a challenge will require you to find a "flag".
 
+These flags will usually be in the format crypto{y0ur_f1rst_fl4g}. The flag format helps you verify that you found the correct solution.
 
-Of all modern programming languages, Python 3 stands out as ideal for quickly writing cryptographic scripts and attacks. For more information about why we think Python is so great for this, please see the FAQ.
+Try submitting this flag into the form below to solve your first challenge.
 
-
-Run the attached Python script and it will output your flag.
-
-
-Challenge files:
-  - [great_snakes.py](great_snakes_35381fca29d68d8f3f25c9fa0a9026fb.py)
-
-Resources:
-  - [Downloading Python](https://wiki.python.org/moin/BeginnersGuide/Download)
-
-
-## Writeup
-Just run the script and it outputs the flag.
 
 ## Flag
-crypto{z3n_0f_pyth0n}
+crypto{y0ur_f1rst_fl4g}

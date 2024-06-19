@@ -11,9 +11,9 @@ The code involves a simple encoding of a flag using XOR.
 
 Now I need to find out the strings that corresponds to the XORed outputs. Example:
 ```
-AA  ->  4100
-AB  ->  4103
-AC  ->  4102
+AA  ->  4100   # 4141 ^ 41 = 4100
+AB  ->  4103   # 4142 ^ 41 = 4103
+AC  ->  4102   # 4143 ^ 41 = 4102
 ```
 Clearly, "AA" is being encoded to 4100 and so on. We need to find out the 2 charecter strings that result in encoding to the output.
 

@@ -17,7 +17,7 @@ Given that `n` is a sufficiently large quantity, thus we get `ct = pt`.
 
 So we can convert `ct` to bytes and we will get our flag.
 
-[Here](salty.py) is the script.
+[Here](script.py) is the script.
 
 ## Flag
 crypto{saltstack_fell_for_this!}

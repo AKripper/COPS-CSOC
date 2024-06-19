@@ -1,5 +1,5 @@
 ## Writeup
-We have two file sgiven for this challenge:
+We have two files given for this challenge:
 - [source.enc](source.enc)
 - [output.txt](output.txt)
 
@@ -8,5 +8,7 @@ The `source.enc` file contains a base64 encoded string which on decoding gives a
 
 ![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/bf58627a-28d9-4bea-91a4-43b9f234b897)
 
+Now I analysed this code.
 
-
+## Flag
+CSOC23{345y_ba5364_4nd_x0r?}

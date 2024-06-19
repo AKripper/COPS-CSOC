@@ -16,8 +16,9 @@ AA  ->  4100
 AB  ->  4103
 AC  ->  4102
 ```
+Clearly, "AA" is being encoded to 4100 and so on. We need to find out the 2 charecter strings that result in encoding to the output.
 
-So I just calculated the encoded value of all the possible 2 character combinations in the ASCII table. I then iterated it such that it prints the string that corresponds to xorred value of the first four digits along output string.
+So I just calculated the encoded value of all the possible 2 character combinations in the ASCII table. I then iterated it such that it prints the string that corresponds to xorred value of four digits along output string. For this I used the encoding algorithm given in the source code.
 
 [Here](script.py) is my script.
 

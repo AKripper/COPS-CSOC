@@ -5,13 +5,11 @@ We have two files given for this challenge:
 
 
 ## Writeup
-The `source.enc` file contains a base64 encoded string which on decoding gives a python script.
+The `source.enc` file contains a base64 encoded string. Use the command `cat source.enc | base64 -d` to decode this file. Decoding resulted in a python code. I analyse the code and explained all the steps in the source code [here](source.py).
 
-![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/bf58627a-28d9-4bea-91a4-43b9f234b897)
+The code involves a simple encoding of a flag using XOR.
 
-Now I analysed this code. I have explained all the steps in the source code [here](source.py).
-
-Now I need to find out the strings that corresponds to the xorred outputs. Example:
+Now I need to find out the strings that corresponds to the XORed outputs. Example:
 ```
 AA  ->  4100
 AB  ->  4103

@@ -15,10 +15,16 @@ Each of the parts are encoded in a different way.
 [Here](script.py) is the script.
 
 ### enc1
+I converted the 8 bit binary numbers to their corresponding ascii values.
+It decodes to `CSOC2`.
 
 ### enc2
+I converted the hexadecimal numbers to their corresponding ascii values.
+It decodes to `3{ju57_`.
 
 ### enc3
+I base64 decoded the string.
+It decodes to `d1ff3r3n7_3nc`.
 
 ### enc4
 

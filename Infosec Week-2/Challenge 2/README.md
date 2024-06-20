@@ -27,7 +27,8 @@ I base64 decoded the string.
 It decodes to `d1ff3r3n7_3nc`.
 
 ### enc4
-
+It took me a while to figure out that these numbers are actually octal. So I cconverted them to their corresponding ascii values.
+It decodes to `0d1n65_l0l}`
 
 ## Flag
-CSOC23{ju57_d1ff3r3n7_3nc
+CSOC23{ju57_d1ff3r3n7_3nc0d1n65_l0l}

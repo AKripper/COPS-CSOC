@@ -24,10 +24,23 @@ print(r.readline())
 print(r.readline())
 
 request = {
-    "buy": "flag"
+    "buy": "flag"    # Change buy parameter to flag.
 }
 json_send(request)
 
 response = json_recv()
 
 print(response)
+
+'''
+Output : 
+[x] Opening connection to socket.cryptohack.org on port 11112
+[x] Opening connection to socket.cryptohack.org on port 11112: Trying 134.122.111.232
+[+] Opening connection to socket.cryptohack.org on port 11112: Done
+b"Welcome to netcat's flag shop!\n"
+b'What would you like to buy?\n'
+b"I only speak JSON, I hope that's ok.\n"
+b'\n'
+{'flag': 'crypto{sh0pp1ng_f0r_fl4g5}'}
+[*] Closed connection to socket.cryptohack.org port 11112
+'''

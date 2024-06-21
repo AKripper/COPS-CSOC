@@ -20,3 +20,5 @@ fk123=bytes.fromhex(fk123)
 fk1=xor(fk123,k23)
 f=xor(fk1,k1)
 print(f)
+
+# Output : b'crypto{x0r_i5_ass0c1at1v3}'

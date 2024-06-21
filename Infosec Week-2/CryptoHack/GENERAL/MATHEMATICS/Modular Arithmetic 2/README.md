@@ -21,5 +21,8 @@ pow(a,p-1,p)=1
 
 Thus our flag is 1.
 
+
+[Here](ma2.py) is a script anyways.
+
 ## Flag
 1

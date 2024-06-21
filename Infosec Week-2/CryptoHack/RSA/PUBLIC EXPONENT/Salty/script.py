@@ -7,3 +7,5 @@ ct = 449812307182121836042747859257931454426554650252645540460282513111644941274
 pt = ct
 flag = long_to_bytes(pt)
 print(flag)
+
+# Output : b'crypto{saltstack_fell_for_this!}'

@@ -28,7 +28,11 @@ For this round we have more filters including the comment(--) parameter we had u
 
 ![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/dbf80918-85a9-4f58-82cf-5192850ab38e)
 
-Clearly we can use `#` for inline comments. So we can update our new username accordingly.
+Clearly we can use `#` for inline comments. Now our query looks like this:
+ SELECT * FROM users WHERE username='**admin';#**' AND password='admin'
+
+
+So we can update our new username accordingly.
 - **Username:** 'admin';#'
 
 ### Round 3 (Filter : or and = like > < --)
@@ -36,8 +40,25 @@ We see that our previous username can still be used and nothing has been filtere
 - **Username:** 'admin';#'
 
 ### Round 4 (Filter : or and = like > < -- admin)
-Now `admin` word has been filtered so we cannot use it in our SQL query. So for this problem I had two things in mind:
-1. To convert ASCII numbers letter by letter to form the word `admin`.
+Now `admin` word has been filtered so we cannot use it in our SQL query. So for this problem I had decided to concencate two words like `adm` and `in` to form `admin`. Now I found out a way to concatenate strings in the [cheatsheet](https://www.sisense.com/blog/sql-symbol-cheatsheet/).
+
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/c54ab6a8-4993-4524-9500-6f3006d9b00c)
+
+So our query must look like this:
+- SELECT * FROM users WHERE username='**adm'||'in';#**' AND password='admin'
+
+So the username becomes:
+- **Username:** 'adm'||'in';#'
+
+### Round 5 (Filter : or and = like > < -- union admin)
+This time a new word `union` has been filtered out but since we did not use it in the previous round so we can use the same username as before to go to the next round.
+
+( The previous round could have been solved using the UNION statement. The UNION operator is used to combine the results of two or more SELECT statements into a single result set )
+
+- **Username:** 'adm'||'in';#'
+
+---
+Now  going back to the 'filter.php' webpage we can find the source code for the login, and scrolling down we get the flag.
 
 ## Flag
-
+picoCTF{y0u_m4d3_1t_16f769e719ab9d3e310fd13dc1262ee1}

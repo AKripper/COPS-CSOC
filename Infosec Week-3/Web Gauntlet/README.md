@@ -60,5 +60,7 @@ This time a new word `union` has been filtered out but since we did not use it i
 ---
 Now  going back to the 'filter.php' webpage we can find the source code for the login, and scrolling down we get the flag.
 
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/13e1241a-5696-4667-b964-d766b7188d96)
+
 ## Flag
 picoCTF{y0u_m4d3_1t_16f769e719ab9d3e310fd13dc1262ee1}

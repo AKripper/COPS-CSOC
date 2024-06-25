@@ -22,7 +22,14 @@ Now I the credentials to be stored in an SQLite database. The basic query for th
 So I would want is such that the query ignores the password I type and directly redirect me to the admin portal. This can work if I comment out the part of the query that comes after username
 
 This is how the query will look like:
-- SELECT username, password FROM users WHERE username='USERNAME';--' AND password='PASSWORD'
+- SELECT username, password FROM users WHERE username='USERNAME';--' AND password='PASSWORD'  (I used `;` to end the query and `--` to comment out the trailing part)
+
+The query will effectively become:
+- SELECT username, password FROM users WHERE username='USERNAME';  (Rest of the part is commented out)
+
+So if we write our username in such a way we can bypass the SQLite query and access the data. Our credentials effectively become:
+- Username : **admin';--**
+- Password : **anything** (does not matter)
 
 ## Flag
 picoCTF{s0m3_SQL_fb3fe2ad}

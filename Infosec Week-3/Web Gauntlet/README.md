@@ -1,6 +1,8 @@
 ## Challenge Description
 Can you beat the filters? Log in as admin 
+
 [http://jupiter.challenges.picoctf.org:44979/](http://jupiter.challenges.picoctf.org:44979/)
+
 [http://jupiter.challenges.picoctf.org:44979/filter.php](http://jupiter.challenges.picoctf.org:44979/filter.php)
 
 

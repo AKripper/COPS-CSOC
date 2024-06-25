@@ -23,6 +23,8 @@ Our query is:
 
 Now I checked some [SQLite operators](https://www.sqlite.org/lang_expr.html) and found out the `IS NOT` operator that works like `!=`(not equal to).
 
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/d27712aa-66f4-4a26-9c5d-0669a0f456e9)
+
 So our `password` parameter can be set to `true`, we can exploit the the login portal.
 
 For this I tried this method

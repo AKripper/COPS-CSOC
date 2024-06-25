@@ -31,5 +31,6 @@ So if we write our username in such a way we can bypass the SQLite query and acc
 - Username : **admin';--**
 - Password : **anything** (does not matter)
 
+We thus login and get our flag
 ## Flag
 picoCTF{s0m3_SQL_fb3fe2ad}

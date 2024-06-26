@@ -1,4 +1,4 @@
-![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/c44ba211-ba1b-43dd-8fbb-cfeeba5a3d61)## Challenge Description
+## Challenge Description
 There is a secure website running at https://jupiter.challenges.picoctf.org/problem/40742/. Try to see if you can login as admin!
 
 ## Writeup

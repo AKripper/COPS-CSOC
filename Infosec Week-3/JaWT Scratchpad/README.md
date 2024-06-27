@@ -1,4 +1,4 @@
-![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/bf34d85c-fa43-4071-b770-81cf5607f4df)## Challenge Description
+## Challenge Description
 Check the admin scratchpad! https://jupiter.challenges.picoctf.org/problem/58210/
 
 ## Writeup
@@ -29,5 +29,12 @@ I used John the Ripper to get the password for the JWT token using this simple c
 The `jawt.txt` file contains the token and I used the publically available `rockyou.txt` password list using the format `HS256`.
 ![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/e2ffb8da-f8a4-4ca4-b438-9a7a2e89ad5f)
 
+Now I wen tback to the JWT site and changed the `user` to `admin` and verified the signature by putting the secret as `ilovepico`
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/e5d3b36a-cdb5-4826-8e86-49773eab8168)
+
+Now editing the cookie value and pasting this new cookie we get our flag on the website:
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/288f3e0d-0875-410b-b0f5-79521ccece85)
+
 
 ## Flag
+picoCTF{jawt_was_just_what_you_thought_44c752f5}

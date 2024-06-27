@@ -1,4 +1,4 @@
-## Challenge Description
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/bf34d85c-fa43-4071-b770-81cf5607f4df)## Challenge Description
 Check the admin scratchpad! https://jupiter.challenges.picoctf.org/problem/58210/
 
 ## Writeup
@@ -20,6 +20,14 @@ I pasted this cookie in the JWT website we were provided with and this is what I
 ![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/58ba01b9-54f1-4cfa-be43-598998f43f1d)
 
 Clearly this cookie decides the scratchpad of the user. All we have to do is change the name to `admin` and verify the signature using the password.
-For finding the password we will need [John the Ripper](https://github.com/openwall/john). 
+For finding the password we will need [John the Ripper](https://github.com/openwall/john). I installed it on my linux subsystem.
+
+I used John the Ripper to get the password for the JWT token using this simple code:
+
+`john jawt.txt --wordlist=../Wordlists/rockyou.txt --format=HMAC-SHA256`
+
+The `jawt.txt` file contains the token and I used the publically available `rockyou.txt` password list using the format `HS256`.
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/e2ffb8da-f8a4-4ca4-b438-9a7a2e89ad5f)
+
 
 ## Flag

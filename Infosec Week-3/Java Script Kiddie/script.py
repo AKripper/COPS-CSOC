@@ -2,21 +2,16 @@ bytes = [156,255,80,255,117,10,239,248,152,253,120,232,36,127,116,255,151,235,25
 n = len(bytes)
 key = "0000000000000000"
 LEN = 16
-result = []
 
 png_bytes = [137,80,78,71,13,10,26,10,0,0,0,13,73,72,68,82]
 
-'''
-for i in range(LEN):
-    shifter = ord(key[i]) - 48;
-    for j in range(n/LEN):
-        result[(j * LEN) + i] = bytes[(((j + shifter) * LEN) % n ) + i]
 
-'''
+print("Key is ",end="")
 for i in range(LEN):
-    print(i," => ",end="")
     for j in range(n//LEN):
         k = j*LEN + i
         if(bytes[k]==png_bytes[i]):
-            print(j," ",end="")
-    print()
+            print(j,end="")
+            break
+    
+# Output: Key is 6696705967835463

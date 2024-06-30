@@ -40,6 +40,9 @@ So I made a [script](script.py) that iterates through every column and identifie
 This gives us the key for the image and typing the key on the portal displays the following QR code.
 ![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/2be91a57-f493-441d-936b-b06297cd7094)
 
-Using a QR code decoder we get our flag.
+Using an [ZXing Decoder Online](https://zxing.org/w/decode.jspx) we get our flag.
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/d1b66325-b8a4-445a-8e25-ee4677dff3b5)
+
 
 ## Flag
+picoCTF{ce96332407ef1381c0bcc59e4154afc8}

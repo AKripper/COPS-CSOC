@@ -2,7 +2,7 @@
 The image link appears broken... twice as badly... https://jupiter.challenges.picoctf.org/problem/38421
 
 ## Writeup
-This challenge is very much similar to the previous challenge so for much detailed explanation of my thought process, you may look at my [Java Script Kiddie] writeup.
+This challenge is very much similar to the previous challenge so for much detailed explanation of my thought process, you may look at my [Java Script Kiddie](https://github.com/AKripper/COPS-CSOC/tree/main/Infosec%20Week-3/Java%20Script%20Kiddie) writeup.
 
 
 The key for this challenge is 32 bytes.

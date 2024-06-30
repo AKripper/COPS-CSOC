@@ -31,8 +31,15 @@ function assemble_png(u_in){
 }
 ```
 
-The code scrambles all the bytes of every 16th byte array. For example, the bytes of at the place 0, 16, 32, 48 ... and so on will all be scrambled within themselves according to a certain shift algoritm. We can reverse engineer this algoritm and make a code that gives us the key for the image as we know what the first 16 bytes of PNG image are.
+The code scrambles the column of every 16th byte. For example, the bytes of at the place 0, 16, 32, 48 ... and so on will all be scrambled within themselves according to a certain shift algoritm. We can reverse engineer this algoritm and make a code that gives us the key for the image as we know what the first 16 bytes of PNG image are.
 
+I deduced that the scramble is nothing but a simple shift. By this I mean that for each corresponding value of the key, the column moves down by that much number.
 
+So I made a [script](script.py) that iterates through every column and identifies where the actual byte of the PNG image is by comparing it to first 16 bytes of the PNG.
+
+This gives us the key for the image and typing the key on the portal displays the following QR code.
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/2be91a57-f493-441d-936b-b06297cd7094)
+
+Using a QR code decoder we get our flag.
 
 ## Flag

@@ -1,0 +1,31 @@
+# Description
+Stack4 takes a look at overwriting saved EIP and standard buffer overflows.
+
+This level is at /opt/protostar/bin/stack4
+
+### Hints
+
+- A variety of introductory papers into buffer overflows may help.
+- gdb lets you do “run < input”
+- EIP is not directly after the end of buffer, compiler padding can also increase the size.
+## Source code
+```C
+#include <stdlib.h>
+#include <unistd.h>
+#include <stdio.h>
+#include <string.h>
+
+void win()
+{
+  printf("code flow successfully changed\n");
+}
+
+int main(int argc, char **argv)
+{
+  char buffer[64];
+
+  gets(buffer);
+}
+```
+
+# Writeup

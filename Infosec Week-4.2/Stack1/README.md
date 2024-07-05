@@ -55,4 +55,5 @@ I was able to modify the variable. So I tried different combinations and underst
 
 ![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/1bbd13ce-bc7c-4e2c-9806-3e9566ed9623)
 
+The numbers 61,62,63,64 represent the ascii values of letters after the buffer.
 I was thus able to solve the challenge.

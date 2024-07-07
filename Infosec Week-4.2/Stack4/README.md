@@ -37,7 +37,7 @@ Now we need to check where the return function is present in our stack. I ran th
 
 ![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/4b23ea0b-eab3-4beb-b14f-f96d38d68c9b)
 
-Now we know the address of the return function and how long the padding must be. The padding starts from `0xbffffc70` and gos till `0xbffffcb0 + 12` which means it is `76` bytes long.
+Now we know the address of the return function and how long the padding must be. The padding starts from `0xbffffc70` till `0xbffffcb0 + 12` which means it is `76` bytes long.
 So we must add our win fucntion after a padding of `76` bytes.
 
 

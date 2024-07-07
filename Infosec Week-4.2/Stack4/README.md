@@ -42,3 +42,11 @@ So we must add our win fucntion after a padding of `76` bytes.
 
 
 I will be doing this using a python script.
+
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/1bcdadd9-ca8b-4e16-a28d-1dbf3dfce500)
+
+Now running this script we get this
+
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/ebfcd265-c24b-4522-a1af-e630f92b1180)
+
+The challenge is thus completed.

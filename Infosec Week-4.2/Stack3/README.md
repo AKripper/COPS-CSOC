@@ -49,6 +49,6 @@ Since it is stacked upwards we have to provide bytes in the following way:
 
  So I did this using python
  
- ![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/ee6e64b3-5226-467b-a782-a7ff9032e180)
+![image](https://github.com/AKripper/COPS-CSOC/assets/167231621/ddd7a49c-decd-4908-9a8e-1f1eb2c82416)
 
 The challenge is thus completed.

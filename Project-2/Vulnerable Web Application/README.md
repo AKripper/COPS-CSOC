@@ -1,5 +1,5 @@
 # Vulnerable Login Application
-This is my project for CSOC 24 in which I made a simple login web app that is vunerable to **SQL Injection**.
+This is my project for CSOC 24 in which I made a simple login web app that is vunerable to **SQL Injection** and **Cross-Site Scripting (XSS)**.
 
 ## Working
 The web page runs on `http://localhost:5000/login`
@@ -20,11 +20,12 @@ simple_login_app/
     └── static/
 ```
 
-After having all the files you will simply need to run these two commands on the terminal inside the directory `simple_login_app`.
+After having all the files you will simply need to run these commands on the terminal inside the directory `simple_login_app`.
 ```
 docker-compose build
 docker-compose up
 ```
+This builds and runs the web app.
 
 ## Files
 1. **app.py** - The Python script to create the Flask web application.

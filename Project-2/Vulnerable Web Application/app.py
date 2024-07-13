@@ -3,9 +3,8 @@ import sqlite3
 import random
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'
+app.secret_key = 'secret'
 
-# Initialize the SQLite database
 def init_db():
     conn = sqlite3.connect('users.db')
     cursor = conn.cursor()
@@ -21,7 +20,6 @@ def init_db():
 
 init_db()
 
-# List of random compliments
 compliments = [
     "You're awesome!",
     "You're doing great!",
@@ -45,7 +43,6 @@ def login():
         conn = sqlite3.connect('users.db')
         cursor = conn.cursor()
         
-        # Vulnerable to SQL Injection
         query = f"SELECT * FROM users WHERE username='{username}' AND password='{password}'"
         cursor.execute(query)
         user = cursor.fetchone()

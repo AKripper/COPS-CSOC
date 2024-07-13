@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, session, flash
+from flask import Flask, render_template, request, redirect, session, flash
 import sqlite3
 import random
 
@@ -33,7 +33,7 @@ def home():
     if 'username' in session:
         compliment = random.choice(compliments)
         return render_template('home.html', username=session['username'], compliment=compliment)
-    return redirect(url_for('login'))
+    return redirect('/login')
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -42,22 +42,22 @@ def login():
         password = request.form['password']
         conn = sqlite3.connect('users.db')
         cursor = conn.cursor()
-        
+
         query = f"SELECT * FROM users WHERE username='{username}' AND password='{password}'"
         cursor.execute(query)
         user = cursor.fetchone()
-        
+
         if user:
             session['username'] = username
-            return redirect(url_for('home'))
+            return redirect('/')
         else:
-            flash('Invalid credentials. Please try again.')
+            flash(f'Invalid credentials. Username: {username}')  
     return render_template('login.html')
 
 @app.route('/logout')
 def logout():
     session.pop('username', None)
-    return redirect(url_for('login'))
+    return redirect('/login')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)  

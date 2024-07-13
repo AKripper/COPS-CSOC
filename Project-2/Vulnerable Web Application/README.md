@@ -1,7 +1,13 @@
 # Vulnerable Login Application
 This is my project for CSOC 24 in which I made a simple login web app that is vunerable to **SQL Injection**.
 
-## Directory Structure
+## Working
+The web page runs on `http://localhost:5000/login`
+
+It is a simple login portal that displays a **Secret Message** if you manage to login as **admin**.
+
+## Set Up
+This is the structure of the directory.
 ```
 simple_login_app/
     ├── app.py
@@ -12,6 +18,12 @@ simple_login_app/
     │   ├── login.html
     │   └── home.html
     └── static/
+```
+
+After having all the files you will simply need to run these two commands on the terminal inside the directory `simple_login_app`.
+```
+docker-compose build
+docker-compose up
 ```
 
 ## Files

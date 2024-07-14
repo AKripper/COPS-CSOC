@@ -7,6 +7,6 @@ My **actual** project is **Raft**. My writeup for **Subway Surfers** contains on
 
 I explored the file structure for both an android game and a PC game.
 
-My final **Results** and **Video** are at the en of the writeup for the game **Raft**.
+My final **Results** and **Video** are at the end of the writeup for the game **Raft**.
 
 

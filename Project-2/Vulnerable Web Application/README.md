@@ -36,7 +36,7 @@ This builds and runs the web app.
 
 4. **docker-compose.yml** - Defines the Docker services for the application.
 
-5. **login.html** - Contains the HTML code for the login page with the updated heading.
+5. **login.html** - Contains the HTML code for the login page.
 
 6. **home.html** - Contains the HTML code for the home page.
 

@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a20f17c8-f478-48d8-935a-00b58f5b9cb7)![image](https://github.com/user-attachments/assets/245f954d-988d-4b94-b465-8531ccd832f2)# Vulnerable Login Application
+# Vulnerable Login Application
 This is my project for CSOC 24 in which I made a simple login web app that is vunerable to **SQL Injection**.
 
 ## Working
